@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronautas</title>
+</head>
+<body>
+    <Header >
+    <h2>People Register  </h2>
+</Header>
+    <form action="#" > 
+         <label for="name">Name : </label>
+         <input type="text" name="name" required>
+         <label for="lname">Last Name : </label>
+         <input type="text"name="lname">
+         <br><br>
+         <label for="email"> Email:</label>
+         <input type="email"name="Email" required >
+         <label for="senha">Password:</label>
+         <input type="password"name="password" required>
+         <br><br>
+         <label for="Data Nascimento "> Data de Nascimento :</label>
+        <input type="date" name="Data de Nascimento" id="">
+        <label for="Envio de foto">Envio de foto : </label>
+        <input type="file" name="uploadpicture" id="">
+        <br><br>
+        <label for="nacionalidade" >Nacionalidade :</label>
+        <input list="nacionalidades" id="">
+        <label for="Genero">Genero : </label>
+        F  
+        <input type="radio" name="Genero" id="">
+        M   
+        <input type="radio" name="Genero" id=""> 
+        
+        <div>
+        <datalist id="nacionalidades">
+           
+            <option value="Brasileiro"></option>
+            <option value="Canadense"></option>
+            <option value="argentino"></option>
+        </datalist>
+    </div>
+    </form>
+    <BR>
+    Principais Qualidades : 
+    <br>
+    <label for="Int">Inteligencia</label>
+    <input type="checkbox" name="Inteligencia" id=""> |
+    <label for="Resi">Resiliencia</label>
+    <input type="checkbox" name="Resi" id="Resi"> |
+    <label for="Prepar">Preparo fisico </label> 
+    <input type="checkbox" name="prepar" id="prepar"> | 
+    <label for="pont">Pontualidade</label>
+    <input type="checkbox" name="pont">
+    <br>
+    <div>
+       <textarea name=" Descriptio" id="" cols="30" rows="10"  placeholder="Porque você gostaria de fazer o cadastro ?"></textarea>
+       <br><br>
+       <input type="submit" value="Enviar Formulario">
+    </div>   
+</body>
+</html>
